@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "hooks": {
+    "beforeSubmitPrompt": [
+      {
+        "command": "python3 .cursor/sazabi-observer.py"
+      }
+    ],
+    "postToolUse": [
+      {
+        "command": "python3 .cursor/sazabi-observer.py"
+      }
+    ],
+    "postToolUseFailure": [
+      {
+        "command": "python3 .cursor/sazabi-observer.py"
+      }
+    ],
+    "afterFileEdit": [
+      {
+        "command": "python3 .cursor/sazabi-observer.py"
+      }
+    ],
+    "afterAgentResponse": [
+      {
+        "command": "python3 .cursor/sazabi-observer.py"
+      }
+    ],
+    "stop": [
+      {
+        "command": "python3 .cursor/sazabi-observer.py"
+      }
+    ]
+  }
+}
